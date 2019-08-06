@@ -1,0 +1,17 @@
+{
+  "name": "testDemoES5",
+  "homepage": "https://github.com/stefaneidelloth/testDemoES5",
+  "authors": [
+    "Stefan Eidelloth <matameko@posteo.de>"
+  ],
+  "description": "", 
+  "license": "MIT",
+  "private": true, 
+  "dependencies": {
+    "d3": "5.1.0",   
+    "jquery": "3.3.1"   
+  },
+  "devDependencies": {
+   
+  }
+}
