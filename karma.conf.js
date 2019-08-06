@@ -31,16 +31,10 @@ module.exports = function(config) {
     exclude: [		
     ],
 
-
     // preprocess matching files before serving them to the browser
-    // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
-	// needed to transform es6 tests to es5, since karma does not
-	// support es6. 
-	// Also see
-	// https://stackoverflow.com/questions/47923536/using-es2015-with-mocha-karma-and-headless-chrome-for-testing
+    // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor	
     preprocessors: {
     },
-
 
     // test results reporter to use
     // possible values: 'dots', 'progress'
