@@ -58,6 +58,7 @@ module.exports = function(config) {
 	customLaunchers: {
 		ChromeDebugging: {
 		  base: 'Chrome',
+		  chromeDataDir: '.chrome',
 		  flags: [ 'http://localhost:9876/debug.html' ] //'--auto-open-devtools-for-tabs',
 		}
     },
